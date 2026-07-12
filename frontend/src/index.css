@@ -20,7 +20,8 @@ h2 {
   font-size: 48px;
   line-height: 100%;
   letter-spacing: -0.03em;
-  text-align: center;
+  margin: 0 auto;
+  /* text-align: center; */
   color: var(--title-color);
 }
 

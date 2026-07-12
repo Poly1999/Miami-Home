@@ -1,0 +1,41 @@
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 100%;
+  padding-top: 100px;
+}
+
+.about-left {
+  max-width: 325px;
+}
+.highlight {
+  color: var(--highlight-color);
+}
+
+.about-right {
+  max-width: 500px;
+}
+
+.title-text {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  margin: 0 auto;
+  color: var(--highlight-color);
+}
+
+.right-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: var(--primary-color);
+}
+
+.finish-text {
+  font-weight: 700;
+}
