@@ -1,0 +1,103 @@
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info {
+  display: flex;
+  gap: 111px;
+}
+
+.phone-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 150px;
+}
+
+.info-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 193%;
+  color: var(--fourth-color);
+}
+
+.info-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: var(--primary-color);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 410px;
+  max-height: 375px;
+  gap: 32px;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-inputs input,
+.message-input {
+  box-sizing: border-box;
+
+  border-radius: 8px;
+  border: none;
+  width: 411px;
+  height: 48px;
+  background: var(--input-color);
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--third-color);
+  padding-left: 17px;
+}
+
+.message-input {
+  height: 144px;
+  resize: none;
+  padding-top: 14px;
+}
+
+.contact-button {
+  width: 411px;
+  height: 48px;
+
+  transition: all 0.3s ease;
+
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 88%;
+  text-align: center;
+
+  border-radius: 8px;
+  border: 2px solid var(--highlight-color);
+
+  color: var(--second-color);
+
+  box-shadow: 0 13px 27px 0 rgba(0, 83, 181, 0.46);
+  background: var(--highlight-color);
+}
+
+.contact-button:hover {
+  box-shadow: 0 13px 27px 0 rgba(0, 83, 181, 0.46);
+  background: var(--highlight-second);
+  border: 2px solid var(--highlight-second);
+}

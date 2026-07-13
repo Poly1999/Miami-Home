@@ -5,9 +5,11 @@
   --primary-color: #3e3e3e;
   --title-color: #000;
   --highlight-color: #0075ff;
+  --highlight-second: #005ecc;
   --second-color: #fff;
   --third-color: #8f99a8;
   --fourth-color: #9fadc2;
+  --input-color: #f6f8ff;
 }
 
 body {
