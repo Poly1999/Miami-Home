@@ -11,6 +11,11 @@
 .about-left {
   max-width: 325px;
 }
+
+.about-left h2 {
+  text-align: left;
+}
+
 .highlight {
   color: var(--highlight-color);
 }

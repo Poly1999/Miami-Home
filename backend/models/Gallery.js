@@ -9,7 +9,12 @@ const gallerySchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  image: {
+  imageLeft: {
+    type: String,
+    required: true,
+  },
+
+  imageRight: {
     type: String,
     required: true,
   },

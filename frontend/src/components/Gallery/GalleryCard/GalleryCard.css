@@ -1,0 +1,35 @@
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  padding-bottom: 40px;
+}
+
+.card-images {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-text {
+  display: flex;
+  gap: 5px;
+}
+
+.card-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 169%;
+  color: var(--highlight-color);
+}
+
+.card-address {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: var(--primary-color);
+}
