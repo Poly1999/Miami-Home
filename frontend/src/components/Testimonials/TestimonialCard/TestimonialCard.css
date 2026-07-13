@@ -1,0 +1,43 @@
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 325px;
+  max-height: 300px;
+  align-items: center;
+}
+
+.testimonial-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.testimonials-name {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  text-align: center;
+  color: var(--highlight-color);
+}
+
+.testimonials-position {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 193%;
+  text-align: center;
+  color: var(--fourth-color);
+}
+
+.testimonials-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  text-align: center;
+  color: var(--primary-color);
+}
