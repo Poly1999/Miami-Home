@@ -1,6 +1,7 @@
 .contact-box {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 
 .contact-info {

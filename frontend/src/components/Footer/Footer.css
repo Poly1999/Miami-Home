@@ -1,0 +1,15 @@
+.footer {
+  position: relative;
+}
+
+.footer img {
+  width: 100%;
+  display: block;
+}
+
+.footer svg {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
