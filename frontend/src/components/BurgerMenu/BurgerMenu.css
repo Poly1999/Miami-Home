@@ -1,0 +1,90 @@
+.burger-container {
+  background-color: var(--highlight-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.burger-header {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.burger-header svg:first-child {
+  position: absolute;
+  left: 0;
+}
+
+.burger-box {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-top: 48px;
+}
+
+.burger-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.burger-item {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--second-color);
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+}
+
+.burger-item:hover {
+  border-bottom: 1px solid var(--second-color);
+}
+
+.burger-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.burger-phone {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 133%;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--second-color);
+}
+
+.burger-buttton {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 133%;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: var(--second-color);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+}
+
+.burger-buttton:hover {
+  border-bottom: 1px solid var(--second-color);
+}
